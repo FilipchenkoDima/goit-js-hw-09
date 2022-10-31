@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAMA,EAAWC,SAASC,cAAc,gBAExCC,QAAQC,IAAIJ","sources":["src/js/02-timer.js"],"sourcesContent":["const startBtn = document.querySelector('[data-start]');\n\nconsole.log(startBtn);\n"],"names":["$40d383fb392a7037$var$startBtn","document","querySelector","console","log"],"version":3,"file":"02-timer.5c536d63.js.map"}

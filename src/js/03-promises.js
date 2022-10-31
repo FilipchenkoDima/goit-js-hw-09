@@ -12,8 +12,8 @@ function onSubmitInputs(evt) {
   const delayStep = Number(step.value);
   const amountEl = Number(amount.value);
 
-  for (let i = 1; i <= amountEl; i += 1) {
-    createPromise(i, firstDelay + i * delayStep).then(onResolve).catch(onReject);
+  for (let i = 0; i < amountEl; i += 1) {
+    createPromise(i + 1, firstDelay + i * delayStep).then(onResolve).catch(onReject);
   };
 };
 
